@@ -1,9 +1,0 @@
-To run GUI application with docker mandatory is Xserver.
-Configuration of xserver is 
-
-1. Multiple windows
-2. Start no client
-3. Check all options
-4. save configuration
-
-Then run docker
