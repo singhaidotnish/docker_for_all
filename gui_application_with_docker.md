@@ -25,9 +25,13 @@ ENV DISPLAY=host.docker.internal:0.0
 CMD service dbus start ; /usr/lib/systemd/systemd-logind & service lightdm start
 
 
-If any issue in building clear cache then try again. 
+**If any issue in building clear cache then try again. **
 
 docker builder prune
+
+To save docker image - docker save -o <path for generated tar file> <image name>
+
+To load docker image - docker load -i <path to image tar file>
 
 Configuration of xserver is 
 
